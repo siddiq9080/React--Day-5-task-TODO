@@ -34,7 +34,7 @@ const TodoCard = ({
             className="btn btn-warning me-3 ps-4 pe-4"
             onClick={() => loadEditTodo({ Tname, Tdes, status, id })}
           >
-            Edit
+            Edit 
           </button>
 
           <button

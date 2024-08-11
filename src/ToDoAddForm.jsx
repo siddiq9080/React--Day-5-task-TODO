@@ -62,7 +62,7 @@ const TodoForm = ({ addTodo, editData, editTodo }) => {
         </label>
 
         <button type="submit" className="btn btn-success ms-3">
-          {editData ? "Edit" : "ADD TODO"}
+          {editData ? "Edit TODO" : "ADD TODO"}
         </button>
       </form>
     </>
